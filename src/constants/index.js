@@ -18,7 +18,7 @@ export const EXPERIENCES = [
   {
     year: "Jan 2023 - July 2023",
     role: "DotNet Developer Intern",
-    company: "Adobe",
+    company: "Sciqus Infotech PVT. LTD.",
     description: `Designed and developed user interfaces for web applications using DotNet and React. Worked closely with backend developers to integrate frontend components with DotNet Web APIs. Implemented responsive designs and optimized frontend performance.`,
     technologies: [
       "HTML",
@@ -32,7 +32,7 @@ export const EXPERIENCES = [
   {
     year: "May 2022 - Dec 2022",
     role: "Java Developer Intern",
-    company: "Facebook",
+    company: "Tech Mahajan",
     description: `As an intern, I am performing dynamic tasks and learning new things to be passionate about trying out new things and mastering them in as little time as possible. these skills to help the company provide services to its clients.`,
     technologies: ["JAVA", "HTML", "Javascript", "CSS"],
   },
