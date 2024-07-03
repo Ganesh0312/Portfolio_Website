@@ -1,6 +1,8 @@
 import { HERO_CONTENT } from "../constants";
 import Profile_pic from "../assets/ganesh_image.jpg";
 import { motion } from "framer-motion";
+import resume from "../assets/GaneshResume.pdf";
+
 const Hero = () => {
   const container = (delay) => ({
     hidden: { x: -100, opacity: 0 },
@@ -41,6 +43,17 @@ const Hero = () => {
               >
                 {HERO_CONTENT}
               </motion.p>
+              <motion.a
+                variants={container(1.5)}
+                initial="hidden"
+                animate="visible"
+                href={resume}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+              >
+                View Resume
+              </motion.a>
             </div>
           </div>
           <div className=" w-full lg:w-1/2 lg:p-8 ">
